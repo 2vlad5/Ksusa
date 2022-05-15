@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'Class-Rus';
+	src: url(21024.otf);
+}
+
+@font-face {
+	font-family: 'Class-neRus';
+	src: url(DOCKER.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+	font-family: 'Class-neRus';
+	text-decoration: none !important;
+	transition: 1s;
+}
+
+a:hover{
+	color: red !important;
+	transition: 1s;
+}
+
+body{
+  background-color: #FFFFCC;
+  background: url(../fon.png);
+  color: #993300;
+}
+
+div.img-center{
+  text-align: center;
+}
+
+div.img-center img{
+  width:515px;
+  height: 240px;
+}
+
+.Center-Txt{
+  text-align: center;
+}
+
+p.p-ClassRus{
+  font-size: 35px;
+}
+
+img.img-left{
+ width: 30px;
+ height: 75px;
+ align: left;
+}
+
+h1.Left-Txt::after{
+  content: url('../carsk.gif');
+  margin-left: 10px;
+}
+
+h1.Left-Txt::first-letter{
+ color: Blue;
+ font-family: 'Class-Rus';
+}
+
+body .Table-div {
+  display: flex;
+  flex-direction: column;
+}
+table{
+  border-collapse:collapse;
+  text-align: center;
+}
+
+table td, tr th{
+  border:1px solid;
+}
